@@ -1,313 +1,848 @@
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amsapriya K | Data Science Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Amsapriya K |  Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- PARTICLES -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
 </head>
+
 <body>
 
-    <!-- NAVBAR -->
-    <header class="navbar">
-        <div class="container nav-content">
-            <div class="logo">Amsapriya K.</div>
-            <nav class="nav-links">
-                <a href="#hero">Home</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
+  <!-- PARTICLES -->
+  <div id="particles-js"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+
+    <div class="container nav-container">
+
+      <div class="logo">
+        Amsapriya K
+      </div>
+
+      <nav class="nav-links">
+
+        <a href="#hero">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+
+    <div class="container hero-content">
+
+      <!-- LEFT -->
+      <div class="hero-left">
+
+        <p class="hero-tag">
+          AI • ML • Data Science
+        </p>
+
+        <h1>
+          Hi, I'm <br>
+          <span>Amsapriya K</span>
+        </h1>
+
+        <h2>
+          Data Scientist | ML Engineer | AI Engineer
+        </h2>
+
+        <p class="hero-desc">
+
+          Passionate about building intelligent AI systems,
+          machine learning models, deep learning applications,
+          and real-world automation solutions.
+
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#projects" class="btn primary-btn">
+            View Projects
+          </a>
+
+          <a href="#contact" class="btn secondary-btn">
+            Contact
+          </a>
+
         </div>
-    </header>
 
-    <!-- HERO / INTRO -->
-    <section id="hero" class="hero-section">
-        <div class="container hero-grid">
-            <div class="hero-text">
-                <p class="hero-tag">Aspiring Data Scientist</p>
-                <h1>Hi, I’m Amsapriya K 👋</h1>
-                <p class="hero-sub">
-                    <p class="hero-sub">
-                        <p class="hero-sub">
-  Aspiring Data Scientist focused on turning raw data into meaningful insights using Python, ML models, and clean workflows. 
-  Working on data science projects is genuinely my favourite hobby — it motivates me every single day to learn, explore, 
-  and build smarter solutions with machine learning.
-</p>
+        <div class="stats">
 
-</p>
+          <div class="stat-box">
+            <h3>97%</h3>
+            <p>ML Accuracy</p>
+          </div>
 
-                </p>
-                <div class="hero-actions">
-                    <a href="#projects" class="btn primary">View My Projects</a>
-                    <a href="#contact" class="btn ghost">Contact Me</a>
-                </div>
+          <div class="stat-box">
+            <h3>4+</h3>
+            <p>AI Projects</p>
+          </div>
+
+          <div class="stat-box">
+            <h3>AI</h3>
+            <p>Focused Career</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="hero-right">
+
+        <div class="ai-glow"></div>
+
+        <img
+          src="profile.png"
+          alt="profile"
+          class="ai-model"
+        >
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+  <!-- ================= SKILLS SECTION ================= -->
+
+<section class="skills-section" id="skills">
+
+    <h1 class="main-title">Technical Skills</h1>
+
+    <!-- ================= Programming ================= -->
+
+    <div class="skills-category">
+
+        <h2>Programming</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+                <p>Python</p>
             </div>
 
-            <div class="hero-profile">
-                <div class="profile-img-wrap">
-                    <!-- change this image name to your own file -->
-                    <img src="images/profile.jpg" alt="Shiny profile picture">
-                </div>
-                <p class="hero-small">
-                    Based in India • Open to internships & projects
-                </p>
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg">
+                <p>C</p>
             </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+                <p>Java</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+                <p>MySQL</p>
+            </div>
+
         </div>
-    </section>
-
-    <!-- SKILLS -->
-    <!-- SKILLS -->
-<section id="skills" class="section">
-  <div class="container">
-
-    <h2 class="section-title">Skills</h2>
-    <p class="section-subtitle">Tech stack I’m currently working with</p>
-
-    <div class="skill-grid">
-
-      <div class="skill-card">
-        <h3>Programming</h3>
-        <p>Python,C,C++ Java (Basics)</p>
-      </div>
-
-      <div class="skill-card">
-        <h3>Data & AI&ML</h3>
-        <p>Pandas, NumPy, Scikit-learn</p>
-      </div>
-
-      <div class="skill-card">
-        <h3>Databases</h3>
-        <p>SQL (Basics), MySQL</p>
-      </div>
-
-      <div class="skill-card">
-        <h3>Visualization</h3>
-        <p>Matplotlib, Seaborn</p>
-      </div>
-
-      <div class="skill-card">
-        <h3>Concepts</h3>
-        <p>EDA, Regression, Classification, Logical Reasoning</p>
-      </div>
-
-      <div class="skill-card">
-        <h3>Tools</h3>
-        <p>Jupyter Notebook, VS Code, Git</p>
-      </div>
-
-      <div class="skill-card">
-        <h3>Hardware & IoT</h3>
-        <p>IoT Systems, MATLAB (Hardware Handling)</p>
-      </div>
 
     </div>
-  </div>
-</section>
-<!-- EDUCATION -->
-<section id="education" class="section">
-    <div class="container">
-        <h2 class="section-title">Education</h2>
-        <p class="section-subtitle">My academic background</p>
 
-        <div class="edu-card">
-            <h3>Agni College of Technology</h3>
-            <p>B.E. Electronics and Communication Engineering (ECE)</p>
-            <p>Pre-final Year • 2023–2027</p>
+    <!-- ================= ML & DL ================= -->
+
+    <div class="skills-category">
+
+        <h2>Machine Learning & Deep Learning</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/4149/4149680.png">
+                <p>Machine Learning</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png">
+                <p>Deep Learning</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/8637/8637092.png">
+                <p>CNN</p>
+            </div>
+
+            <!-- FIXED NLP -->
+
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/4616/4616734.png">
+                <p>NLP</p>
+            </div>
+
+            <!-- FIXED LSTM -->
+
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2942/2942688.png">
+                <p>LSTM</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2620/2620971.png">
+                <p>Random Forest</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png">
+                <p>EDA</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2721/2721297.png">
+                <p>MobileNetV2</p>
+            </div>
+
         </div>
-    </div>
-</section>
-
-
-    <!-- PROJECTS -->
-   <!-- PROJECTS -->
-<section id="projects" class="section">
-  <div class="container">
-
-    <h2 class="section-title">Projects</h2>
-    <p class="section-subtitle">A snapshot of what I’ve built so far</p>
-
-    <div class="project-grid">
-
-      <!-- PROJECT 1: Credit Risk Prediction App -->
-      <article class="project-card">
-        <div class="project-header">
-          <h3>Credit Risk Prediction App</h3>
-          <span class="project-tag">Machine Learning • Streamlit</span>
-        </div>
-
-        <p class="project-desc">
-          Developed an ML-powered web application to predict credit risk using structured financial data. 
-          Built data pipelines, engineered features, and deployed the model with Streamlit for real-time predictions.
-        </p>
-
-        <p class="project-meta">
-          <strong>Stack:</strong> Python, Pandas, NumPy, Scikit-learn, Streamlit, Joblib
-        </p>
-
-        <div class="project-actions">
-          <a href="https://github.com/Shiny23-626/credit-risk-prediction-app" target="_blank" class="btn small primary">
-            View on GitHub
-          </a>
-        </div>
-      </article>
-
-
-
-      <!-- PROJECT 2: Sign Glove (Hardware + Software) -->
-      <article class="project-card">
-        <div class="project-header">
-          <h3>Sign Glove – Gesture Recognition System</h3>
-          <span class="project-tag">IoT • Python • Arduino</span>
-        </div>
-
-        <p class="project-desc">
-          Built a wearable “Sign Glove” that converts hand gestures into text/audio using flex sensors and Arduino. 
-          Processed sensor data using Python to classify gestures, enabling real-time communication support for speech-impaired users.
-        </p>
-
-        <p class="project-meta">
-          <strong>Stack:</strong> Arduino, Python, flex Sensors, Serial Communication, ML (Basic)
-        </p>
-
-        <div class="project-actions">
-          <a class="btn small ghost" style="pointer-events:none; opacity:0.6;">
-            GitHub Link Coming Soon
-          </a>
-        </div>
-      </article>
 
     </div>
-  </div>
+
+    <!-- ================= Technologies ================= -->
+
+    <div class="skills-category">
+
+        <h2>Technologies & Libraries</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg">
+                <p>TensorFlow</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg">
+                <p>Keras</p>
+            </div>
+
+            <!-- FIXED OPENCV -->
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg">
+                <p>OpenCV</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg">
+                <p>NumPy</p>
+            </div>
+
+            <!-- FIXED PANDAS -->
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg">
+                <p>Pandas</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg">
+                <p>Matplotlib</p>
+            </div>
+
+            <!-- FIXED SEABORN -->
+
+            <div class="skill-card">
+                <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg">
+                <p>Seaborn</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg">
+                <p>Scikit-Learn</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= Frameworks ================= -->
+
+    <div class="skills-category">
+
+        <h2>Frameworks & Tools</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <img src="https://cdn.worldvectorlogo.com/logos/fastapi.svg">
+                <p>FastAPI</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg">
+                <p>Flutter</p>
+            </div>
+
+            <!-- FIXED STREAMLIT -->
+
+            <div class="skill-card">
+                <img src="https://streamlit.io/images/brand/streamlit-mark-color.png">
+                <p>Streamlit</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg">
+                <p>Jupyter</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
+                <p>VS Code</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+                <p>Git</p>
+            </div>
+
+            <!-- FIXED GITHUB -->
+
+            <div class="skill-card">
+                <img style="filter:invert(1);" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+                <p>GitHub</p>
+            </div>
+
+            <!-- FIXED HUGGING FACE -->
+
+            <div class="skill-card">
+                <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg">
+                <p>Hugging Face</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://www.nltk.org/images/nltk.png">
+                <p>NLTK</p>
+            </div>
+
+            <!-- FIXED SPACY -->
+
+            <div class="skill-card">
+                <img src="https://spacy.io/images/logo.svg">
+                <p>spaCy</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
+                <p>Docker</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= Hardware ================= -->
+
+    <div class="skills-category">
+
+        <h2>Hardware / IoT</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg">
+                <p>Arduino</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/1048/1048941.png">
+                <p>IoT Prototyping</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png">
+                <p>Sensor Integration</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png">
+                <p>MATLAB</p>
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
-<!-- CERTIFICATIONS SECTION -->
-<section id="certifications" class="section">
-  <div class="container">
-    <h2 class="section-title">Certifications</h2>
-    <p class="section-subtitle">Courses, virtual experiences, and achievements I’ve earned</p>
+
+  <!-- PROJECTS -->
+  <<!-- ================= PROJECTS SECTION ================= -->
+
+<section class="projects-section" id="projects">
+
+    <h1 class="projects-title">Projects</h1>
+
+    <p class="projects-subtitle">
+        AI, Machine Learning, IoT, and Data Science projects focused on solving real-world problems.
+    </p>
+
+    <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+
+        <div class="project-card">
+
+            <div class="project-top">
+                <h2>HazardNet India</h2>
+                <span class="project-badge">AI + IoT</span>
+            </div>
+
+            <p class="project-desc">
+                AI-powered disaster monitoring and emergency alert system with real-time prediction and geospatial visualization.
+            </p>
+
+            <div class="tech-stack">
+                <span>Random Forest</span>
+                <span>Streamlit</span>
+                <span>Flutter</span>
+                <span>API</span>
+            </div>
+
+            <a href="https://github.com/Shiny23-626/HAZARDNET-INDIA-AI-Powered-Multi-Disaster-Early-Warning-System"
+               target="_blank"
+               class="project-btn">
+               GitHub Repository →
+            </a>
+
+        </div>
+
+        <!-- PROJECT 2 -->
+
+        <div class="project-card">
+
+            <div class="project-top">
+                <h2>PLANTORA</h2>
+                <span class="project-badge">Deep Learning</span>
+            </div>
+
+            <p class="project-desc">
+                Intelligent plant disease detection and advisory platform using CNN and MobileNetV2 models.
+            </p>
+
+            <div class="tech-stack">
+                <span>CNN</span>
+                <span>MobileNetV2</span>
+                <span>TensorFlow</span>
+                <span>OpenCV</span>
+            </div>
+
+            <a href="https://github.com/Shiny23-626/PLANTORA-An-AI-Powered-Plant-Health-Detection-and-Advisory-App"
+               target="_blank"
+               class="project-btn">
+               GitHub Repository →
+            </a>
+
+        </div>
+
+        <!-- PROJECT 3 -->
+
+        <div class="project-card">
+
+            <div class="project-top">
+                <h2>ISHARA</h2>
+                <span class="project-badge">Assistive AI</span>
+            </div>
+
+            <p class="project-desc">
+                Wearable biomechanical sensing system for automated sign language interpretation and communication.
+            </p>
+
+            <div class="tech-stack">
+                <span>Machine Learning</span>
+                <span>TTS</span>
+                <span>Sensors</span>
+                <span>IoT</span>
+            </div>
+
+            <a href="https://github.com/Shiny23-626/ISHARA--WEARABLE-BIOMECHANICAL-SENSING-FOR-AUTOMATED-SIGN-LANGUAGE-TRANSCRIPTION-"
+               target="_blank"
+               class="project-btn">
+               GitHub Repository →
+            </a>
+
+        </div>
+
+        <!-- PROJECT 4 -->
+
+        <div class="project-card">
+
+            <div class="project-top">
+                <h2>Credit Risk Prediction</h2>
+                <span class="project-badge">Data Science</span>
+            </div>
+
+            <p class="project-desc">
+                Machine Learning system for predicting high-risk credit customers using EDA and classification models.
+            </p>
+
+            <div class="tech-stack">
+                <span>Pandas</span>
+                <span>Seaborn</span>
+                <span>Random Forest</span>
+                <span>EDA</span>
+            </div>
+
+            <a href="https://github.com/Shiny23-626/credit-risk-prediction-app"
+               target="_blank"
+               class="project-btn">
+               GitHub Repository →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+  <!-- CERTIFICATIONS -->
+  =<!-- ================= CERTIFICATIONS SECTION ================= -->
+
+<section id="certifications" class="certifications-section">
+
+    <h1 class="cert-title">Certifications</h1>
+
+    <p class="cert-subtitle">
+        Courses, virtual experiences, and industry certifications focused on AI, Data Science, Programming, and Software Engineering.
+    </p>
 
     <div class="cert-grid">
 
-      <!-- AI Fundamentals -->
-      <div class="cert-card">
-        <h3>Artificial Intelligence Fundamentals</h3>
-        <p>Issued by IBM SkillsBuild · Covered ML basics, neural networks, supervised/unsupervised learning and AI applications.</p>
-        <a href="https://www.credly.com/badges/4c7d7a06-cc01-4d77-ae09-15b306fd2d26/public_url" target="_blank" class="btn small primary">View Credential</a>
-      </div>
+        <!-- CERTIFICATION 1 -->
 
-      <!-- Java - GUVI -->
-      <div class="cert-card">
-        <h3>Java Programming</h3>
-        <p>GUVI · Learned Java fundamentals, OOP concepts, loops, arrays, exception handling, and problem-solving.</p>
-        <a href="https://www.guvi.in/verify-certificate?id=fa2dX433IGW10E1473" target="_blank" class="btn small primary">View Certificate</a>
-      </div>
+        <div class="cert-card">
 
-      <!-- C++ - Skillrack -->
-      <div class="cert-card">
-        <h3>C++ Programming</h3>
-        <p>SkillRack · Hands-on training on C++ basics, loops, functions, arrays, and competitive-style coding practices.</p>
-        <a href="https://www.skillrack.com/cert/593788/AAN" target="_blank" class="btn small primary">View Credential</a>
-      </div>
-
-      <!-- Java Basics - Skillrack -->
-      <div class="cert-card">
-        <h3>Java Basics</h3>
-        <p>SkillRack · Completed hands-on problem-solving tasks using loops, conditionals, strings, and arrays.</p>
-        <a href="https://www.skillrack.com/cert/593703/TBU" target="_blank" class="btn small primary">View Credential</a>
-      </div>
-
-      <!-- Data Structures in C - Skillrack -->
-      <div class="cert-card">
-        <h3>Data Structures in C (Hands-On)</h3>
-        <p>SkillRack · Hands-on coding tasks using stacks, queues, linked lists, trees, sorting & searching algorithms.</p>
-        <a href="https://www.skillrack.com/cert/536475/POU" target="_blank" class="btn small primary">View Credential</a>
-      </div>
-
-      <!-- Introduction to Computers and OS -->
-      <div class="cert-card">
-        <h3>Introduction to Computers, Operating Systems & Security</h3>
-        <p>Coursera · Covered OS architecture, process handling, memory management, and cybersecurity fundamentals.</p>
-        <a href="https://coursera.org/share/a57a4c96db2896c3b5e756eac3fa4fe8" target="_blank" class="btn small primary">View Certificate</a>
-      </div>
-
-      <!-- EDA for ML -->
-      <div class="cert-card">
-        <h3>Exploratory Data Analysis for Machine Learning</h3>
-        <p>Coursera · Worked on EDA, visual analytics, preprocessing, correlations, and ML-ready feature engineering.</p>
-        <a href="https://coursera.org/share/31ceacb777cfe742671e3ba0ff3aeaf4" target="_blank" class="btn small primary">View Certificate</a>
-      </div>
-
-      <!-- Intro to Data Analytics -->
-      <div class="cert-card">
-        <h3>Introduction to Data Analytics</h3>
-        <p>Coursera · Learned analytics workflow, business decision-making, data collection, and insights generation.</p>
-        <a href="https://coursera.org/share/36d154027b396cb3731343a5effdfc48" target="_blank" class="btn small primary">View Certificate</a>
-      </div>
-
-      <!-- Deloitte Data Analytics Simulation -->
-      <div class="cert-card">
-        <h3>Deloitte – Data Analytics Virtual Job Simulation</h3>
-        <p>Forage · Completed tasks on data analysis, forensic technology, cleaning datasets, and investigative insight generation.</p>
-        <a href="https://www.theforage.com/simulations/deloitte-au/data-analytics-s5zy" target="_blank" class="btn small primary">View Program</a>
-      </div>
-
-      <!-- JPMorgan Chase Software Simulation -->
-      <div class="cert-card">
-        <h3>JPMorgan Chase – Advanced Software Engineering Simulation</h3>
-        <p>Forage · Completed Kafka integration, H2 setup, REST API development, controllers, and end-to-end architecture setup.</p>
-        <a href="https://www.theforage.com/simulations/jpmorgan/advanced-software-engineering-r0fm" target="_blank" class="btn small primary">View Program</a>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT SECTION -->
-<section id="contact" class="section">
-    <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <p class="section-subtitle">Let’s connect and build something amazing.</p>
-
-        <div class="contact-grid">
-
-            <div class="contact-card">
-                <h3>📱 Mobile</h3>
-                <p><a href="tel:8925100761">8925100761</a></p>
+            <div class="cert-top">
+                <h2>Artificial Intelligence Fundamentals</h2>
+                <span class="cert-badge">IBM</span>
             </div>
 
-            <div class="contact-card">
-                <h3>🔗 LinkedIn</h3>
-                <p>
-                    <a href="https://www.linkedin.com/in/amsapriya-k-470193370?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                       target="_blank">
-                        View LinkedIn Profile
-                    </a>
-                </p>
-            </div>
+            <p class="cert-desc">
+                Covered AI foundations, supervised & unsupervised learning, neural networks, and real-world AI applications.
+            </p>
 
-            <div class="contact-card">
-                <h3>🐙 GitHub</h3>
-                <p>
-                    <a href="https://github.com/Shiny23-626" target="_blank">
-                        github.com/Shiny23-626
-                    </a>
-                </p>
-            </div>
-
-            <div class="contact-card">
-                <h3>📧 Email</h3>
-                <p><a href="mailto:amsashiny626@gmail.com">amsashiny626@gmail.com</a></p>
-            </div>
+            <a href="https://www.credly.com/badges/4c7d7a06-cc01-4d77-ae09-15b306fd2d26/public_url"
+               target="_blank"
+               class="cert-btn">
+               View Credential →
+            </a>
 
         </div>
+
+        <!-- CERTIFICATION 2 -->
+
+        <div class="cert-card">
+
+            <div class="cert-top">
+                <h2>Java Programming</h2>
+                <span class="cert-badge">GUVI</span>
+            </div>
+
+            <p class="cert-desc">
+                Learned Java fundamentals, OOP concepts, arrays, exception handling, and problem-solving techniques.
+            </p>
+
+            <a href="https://www.guvi.in/verify-certificate?id=fa2dX433IGW10E1473"
+               target="_blank"
+               class="cert-btn">
+               View Certificate →
+            </a>
+
+        </div>
+
+        <!-- CERTIFICATION 3 -->
+
+        <div class="cert-card">
+
+            <div class="cert-top">
+                <h2>C++ Programming</h2>
+                <span class="cert-badge">SkillRack</span>
+            </div>
+
+            <p class="cert-desc">
+                Hands-on coding practice covering loops, functions, arrays, and competitive-style programming logic.
+            </p>
+
+            <a href="https://www.skillrack.com/cert/593788/AAN"
+               target="_blank"
+               class="cert-btn">
+               View Credential →
+            </a>
+
+        </div>
+
+        <!-- CERTIFICATION 4 -->
+
+        <div class="cert-card">
+
+            <div class="cert-top">
+                <h2>Java Basics</h2>
+                <span class="cert-badge">SkillRack</span>
+            </div>
+
+            <p class="cert-desc">
+                Solved practical Java problems involving strings, arrays, loops, conditionals, and logic building.
+            </p>
+
+            <a href="https://www.skillrack.com/cert/593703/TBU"
+               target="_blank"
+               class="cert-btn">
+               View Credential →
+            </a>
+
+        </div>
+
+        <!-- CERTIFICATION 5 -->
+
+        <div class="cert-card">
+
+            <div class="cert-top">
+                <h2>Data Structures in C</h2>
+                <span class="cert-badge">SkillRack</span>
+            </div>
+
+            <p class="cert-desc">
+                Implemented stacks, queues, linked lists, trees, searching, and sorting algorithms through coding exercises.
+            </p>
+
+            <a href="https://www.skillrack.com/cert/536475/POU"
+               target="_blank"
+               class="cert-btn">
+               View Credential →
+            </a>
+
+        </div>
+
+        <!-- CERTIFICATION 6 -->
+
+        <div class="cert-card">
+
+            <div class="cert-top">
+                <h2>Operating Systems & Security</h2>
+                <span class="cert-badge">Coursera</span>
+            </div>
+
+            <p class="cert-desc">
+                Learned OS architecture, memory management, process handling, and cybersecurity fundamentals.
+            </p>
+
+            <a href="https://coursera.org/share/a57a4c96db2896c3b5e756eac3fa4fe8"
+               target="_blank"
+               class="cert-btn">
+               View Certificate →
+            </a>
+
+        </div>
+
+        <!-- CERTIFICATION 7 -->
+
+        <div class="cert-card">
+
+            <div class="cert-top">
+                <h2>EDA for Machine Learning</h2>
+                <span class="cert-badge">Coursera</span>
+            </div>
+
+            <p class="cert-desc">
+                Worked on preprocessing, visual analytics, correlations, feature engineering, and ML-ready datasets.
+            </p>
+
+            <a href="https://coursera.org/share/31ceacb777cfe742671e3ba0ff3aeaf4"
+               target="_blank"
+               class="cert-btn">
+               View Certificate →
+            </a>
+
+        </div>
+
+        <!-- CERTIFICATION 8 -->
+
+        <div class="cert-card">
+
+            <div class="cert-top">
+                <h2>Introduction to Data Analytics</h2>
+                <span class="cert-badge">Coursera</span>
+            </div>
+
+            <p class="cert-desc">
+                Learned analytics workflow, data-driven decision-making, business insights, and reporting fundamentals.
+            </p>
+
+            <a href="https://coursera.org/share/36d154027b396cb3731343a5effdfc48"
+               target="_blank"
+               class="cert-btn">
+               View Certificate →
+            </a>
+
+        </div>
+
+        <!-- CERTIFICATION 9 -->
+
+        <div class="cert-card">
+
+            <div class="cert-top">
+                <h2>Deloitte Data Analytics Simulation</h2>
+                <span class="cert-badge">Forage</span>
+            </div>
+
+            <p class="cert-desc">
+                Completed forensic technology and data analytics tasks involving dataset cleaning and insight generation.
+            </p>
+
+            <a href="https://www.theforage.com/simulations/deloitte-au/data-analytics-s5zy"
+               target="_blank"
+               class="cert-btn">
+               View Program →
+            </a>
+
+        </div>
+
+        <!-- CERTIFICATION 10 -->
+
+        <div class="cert-card">
+
+            <div class="cert-top">
+                <h2>JPMorgan Software Engineering Simulation</h2>
+                <span class="cert-badge">Forage</span>
+            </div>
+
+            <p class="cert-desc">
+                Worked on Kafka integration, REST APIs, H2 setup, backend architecture, and software engineering workflows.
+            </p>
+
+            <a href="https://www.theforage.com/simulations/jpmorgan/advanced-software-engineering-r0fm"
+               target="_blank"
+               class="cert-btn">
+               View Program →
+            </a>
+
+        </div>
+
     </div>
+
 </section>
 
-<footer class="footer">
-        <p>© 2025 Amsapriya K · Data Science Portfolio</p>
-    </footer>
+  <!-- ================= CONTACT SECTION ================= -->
+<!-- ================= CONTACT SECTION ================= -->
+
+<section id="contact" class="contact-section">
+
+    <h1 class="contact-title">Contact Me</h1>
+
+    <p class="contact-subtitle">
+        Let’s connect, collaborate, and build impactful AI solutions together.
+    </p>
+
+    <div class="contact-grid">
+
+        <!-- MOBILE -->
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Phone">
+            </div>
+
+            <h3>Mobile</h3>
+
+            <a href="tel:8925100761">
+                +91 8925100761
+            </a>
+
+        </div>
+
+        <!-- EMAIL -->
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+            </div>
+
+            <h3>Email</h3>
+
+            <a href="mailto:amsashiny626@gmail.com">
+                amsashiny626@gmail.com
+            </a>
+
+        </div>
+
+        <!-- LINKEDIN -->
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+            </div>
+
+            <h3>LinkedIn</h3>
+
+            <a href="https://www.linkedin.com/in/amsapriya-k-470193370?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+               target="_blank">
+
+               linkedin.com/in/amsapriya-k
+
+            </a>
+
+        </div>
+
+        <!-- GITHUB -->
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+            </div>
+
+            <h3>GitHub</h3>
+
+            <a href="https://github.com/Shiny23-626"
+               target="_blank">
+
+               github.com/Shiny23-626
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <p>
+      © 2026 Amsapriya K |  Portfolio
+    </p>
+
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
 
 </body>
-</html>
 
+</html>
